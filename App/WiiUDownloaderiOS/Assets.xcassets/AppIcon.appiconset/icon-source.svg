@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Muffin Downloader app icon</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E8FF2"/>
+      <stop offset="100%" stop-color="#3A40E8"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1D5FD1"/>
+      <stop offset="100%" stop-color="#2F3ED6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- content disc: a generic rounded media shape, not any specific console's silhouette -->
+  <rect x="232" y="232" width="560" height="560" rx="120" fill="#F5F8FF"/>
+  <circle cx="512" cy="512" r="72" fill="none" stroke="#B9C7EE" stroke-width="18"/>
+  <circle cx="512" cy="512" r="26" fill="#B9C7EE"/>
+
+  <!-- bold download glyph: arrow into a tray -->
+  <g>
+    <rect x="472" y="330" width="80" height="230" rx="40" fill="url(#arrow)"/>
+    <path d="M 392 520 L 512 660 L 632 520 Z" fill="url(#arrow)"/>
+    <rect x="392" y="672" width="240" height="56" rx="28" fill="url(#arrow)"/>
+  </g>
+</svg>

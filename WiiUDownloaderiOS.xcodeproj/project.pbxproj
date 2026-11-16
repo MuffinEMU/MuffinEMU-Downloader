@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024F4AC865C04B83C388CD45 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C59FEA684B419D254D2FA9 /* Haptics.swift */; };
+		094489A5B44CD9FBEB8A729E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A317AF1C9325C790078638D5 /* Assets.xcassets */; };
+		1BD1B255A5B589DA02320DA9 /* TitleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5144017FA2ED5E43848F7A73 /* TitleListView.swift */; };
+		3819B3AF8217CD803CF73111 /* DownloadActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16905E6B6C09ED7F4716B9CD /* DownloadActivityAttributes.swift */; };
+		4AFBBFDCE0F4BFE73B77897E /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A860F33AF9202C7466FBD /* LiveActivityManager.swift */; };
+		575692EE100F4C6EFDB503E1 /* WiiUDownloaderWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9473B44B2F9B5D7F8DE22486 /* WiiUDownloaderWidgetBundle.swift */; };
+		62FDBF6DAADAFCF3737A17BF /* QueueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C750A960DF855D5D7C0B7 /* QueueItem.swift */; };
+		7824F52A55A4535EB49B5409 /* DownloadActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16905E6B6C09ED7F4716B9CD /* DownloadActivityAttributes.swift */; };
+		7FB0A8570B0560AF88E67593 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E19F6BE420A1B8FD767E /* DownloadManager.swift */; };
+		81EF1E0D87AD2FA5AC3D1FE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C520D076AD153A52B482ED5B /* ContentView.swift */; };
+		9676AC254A8EEC40444255EE /* WiiUDownloaderiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675D05A5A4F021CCB885C6CF /* WiiUDownloaderiOSApp.swift */; };
+		A4D9EDF544A58D2E5F68B012 /* TitleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E07520F0B2413B7883F6CB /* TitleDetailView.swift */; };
+		AA502711D1D2C52D4766E4F4 /* WUDCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8C43C103C66DF4302D681568 /* WUDCore */; };
+		AC4EA2A5BDEAEE7AD9DB4625 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EF7DF8915569BEE3D9592 /* QueueView.swift */; };
+		B04212773CFFAD6292FD24C2 /* DownloadLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D190E054AD634B705AFBB /* DownloadLiveActivity.swift */; };
+		B4CC1DCEA89E355640932A06 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F7066F4528E4F1866C370 /* Theme.swift */; };
+		C0FB4EECE0C4047D9BDDEF95 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E23AEDCA3729CFD57F7C11 /* SettingsView.swift */; };
+		C8A769C365D022762AD3EFFD /* AddByTitleIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D89F4C95627D820B3763BA /* AddByTitleIDView.swift */; };
+		D7AFE5F85FEAA2D223241A12 /* GlassEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A9006A38883F1BF1F9E52 /* GlassEffects.swift */; };
+		EEED57CD393364662C6D0A82 /* InitialSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9C7461F203D2737F4D282A /* InitialSetupView.swift */; };
+		F3172E634CDF593C198C1FD5 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F760159ABA56E78342B8211 /* AppConfig.swift */; };
+		FC2418705BCB51512DABD4BB /* WiiUDownloaderWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9694FF6992A40A3E0A438D8F /* WiiUDownloaderWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F63E21824C7FA77A18A5C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B2F3A0E8E2DABE416FF14C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5A63A620274F6A6279FE18;
+			remoteInfo = WiiUDownloaderWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7ECB7EFC070F1AD953FAB84 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FC2418705BCB51512DABD4BB /* WiiUDownloaderWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F760159ABA56E78342B8211 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		12EC74638475D95148B3BCAF /* WiiUDownloaderiOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WiiUDownloaderiOS; path = .; sourceTree = SOURCE_ROOT; };
+		16905E6B6C09ED7F4716B9CD /* DownloadActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadActivityAttributes.swift; sourceTree = "<group>"; };
+		28D89F4C95627D820B3763BA /* AddByTitleIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddByTitleIDView.swift; sourceTree = "<group>"; };
+		2C298A38FF2B2FF90621E931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3D4D40191C6B34E92A4E6B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		491C750A960DF855D5D7C0B7 /* QueueItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueItem.swift; sourceTree = "<group>"; };
+		5144017FA2ED5E43848F7A73 /* TitleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleListView.swift; sourceTree = "<group>"; };
+		5C6F7066F4528E4F1866C370 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		675D05A5A4F021CCB885C6CF /* WiiUDownloaderiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiUDownloaderiOSApp.swift; sourceTree = "<group>"; };
+		846A860F33AF9202C7466FBD /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		9473B44B2F9B5D7F8DE22486 /* WiiUDownloaderWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiiUDownloaderWidgetBundle.swift; sourceTree = "<group>"; };
+		95E23AEDCA3729CFD57F7C11 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9694FF6992A40A3E0A438D8F /* WiiUDownloaderWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = WiiUDownloaderWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A317AF1C9325C790078638D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E07520F0B2413B7883F6CB /* TitleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailView.swift; sourceTree = "<group>"; };
+		AD9C7461F203D2737F4D282A /* InitialSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSetupView.swift; sourceTree = "<group>"; };
+		ADB6E19F6BE420A1B8FD767E /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		BD3A9006A38883F1BF1F9E52 /* GlassEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassEffects.swift; sourceTree = "<group>"; };
+		C520D076AD153A52B482ED5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC4EF7DF8915569BEE3D9592 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		D87D190E054AD634B705AFBB /* DownloadLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadLiveActivity.swift; sourceTree = "<group>"; };
+		E27A27E98400D7F6174551D7 /* WiiUDownloaderiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WiiUDownloaderiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C59FEA684B419D254D2FA9 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E28457D8B976C52465B303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA502711D1D2C52D4766E4F4 /* WUDCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF4FD051BF1F4A1C850F7D8 /* WiiUDownloaderiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A317AF1C9325C790078638D5 /* Assets.xcassets */,
+				3D4D40191C6B34E92A4E6B4C /* Info.plist */,
+				675D05A5A4F021CCB885C6CF /* WiiUDownloaderiOSApp.swift */,
+				9E27A28E4073C594529645B5 /* Models */,
+				6D6F364215A88CB238E2C3A1 /* Services */,
+				8FEF3AB386384F43A3BECF7F /* Theme */,
+				75FA339C6C890282FE73D8A1 /* Views */,
+			);
+			name = WiiUDownloaderiOS;
+			path = App/WiiUDownloaderiOS;
+			sourceTree = "<group>";
+		};
+		403CDA51E5DC057A215F07A2 = {
+			isa = PBXGroup;
+			children = (
+				4DF7A7C4946BBACD10B4DA3F /* Packages */,
+				630B01FEF0421BF4A41244CC /* Shared */,
+				CDE60D7A4F864A11CDD674B0 /* Widget */,
+				3BF4FD051BF1F4A1C850F7D8 /* WiiUDownloaderiOS */,
+				8432FAD9F282CF7650E66BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF7A7C4946BBACD10B4DA3F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				12EC74638475D95148B3BCAF /* WiiUDownloaderiOS */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		630B01FEF0421BF4A41244CC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				16905E6B6C09ED7F4716B9CD /* DownloadActivityAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D6F364215A88CB238E2C3A1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E6C59FEA684B419D254D2FA9 /* Haptics.swift */,
+				846A860F33AF9202C7466FBD /* LiveActivityManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		75FA339C6C890282FE73D8A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28D89F4C95627D820B3763BA /* AddByTitleIDView.swift */,
+				C520D076AD153A52B482ED5B /* ContentView.swift */,
+				AD9C7461F203D2737F4D282A /* InitialSetupView.swift */,
+				CC4EF7DF8915569BEE3D9592 /* QueueView.swift */,
+				95E23AEDCA3729CFD57F7C11 /* SettingsView.swift */,
+				A4E07520F0B2413B7883F6CB /* TitleDetailView.swift */,
+				5144017FA2ED5E43848F7A73 /* TitleListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8432FAD9F282CF7650E66BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27A27E98400D7F6174551D7 /* WiiUDownloaderiOS.app */,
+				9694FF6992A40A3E0A438D8F /* WiiUDownloaderWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FEF3AB386384F43A3BECF7F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A9006A38883F1BF1F9E52 /* GlassEffects.swift */,
+				5C6F7066F4528E4F1866C370 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9E27A28E4073C594529645B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F760159ABA56E78342B8211 /* AppConfig.swift */,
+				ADB6E19F6BE420A1B8FD767E /* DownloadManager.swift */,
+				491C750A960DF855D5D7C0B7 /* QueueItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDE60D7A4F864A11CDD674B0 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				D87D190E054AD634B705AFBB /* DownloadLiveActivity.swift */,
+				2C298A38FF2B2FF90621E931 /* Info.plist */,
+				9473B44B2F9B5D7F8DE22486 /* WiiUDownloaderWidgetBundle.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5A63A620274F6A6279FE18 /* WiiUDownloaderWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E592177922EB9EB337134AE1 /* Build configuration list for PBXNativeTarget "WiiUDownloaderWidgetExtension" */;
+			buildPhases = (
+				A8B47FD6BF62BF85B791272F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiiUDownloaderWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WiiUDownloaderWidgetExtension;
+			productReference = 9694FF6992A40A3E0A438D8F /* WiiUDownloaderWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CF2F207E5E9D7769F6131971 /* WiiUDownloaderiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927F90864AD2B70F5479EC35 /* Build configuration list for PBXNativeTarget "WiiUDownloaderiOS" */;
+			buildPhases = (
+				854512113F823BF3377D8F28 /* Sources */,
+				40A689571F287EE64B6D6333 /* Resources */,
+				B7E28457D8B976C52465B303 /* Frameworks */,
+				F7ECB7EFC070F1AD953FAB84 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BFDE1D1DE9C9F4D764B4F89 /* PBXTargetDependency */,
+			);
+			name = WiiUDownloaderiOS;
+			packageProductDependencies = (
+				8C43C103C66DF4302D681568 /* WUDCore */,
+			);
+			productName = WiiUDownloaderiOS;
+			productReference = E27A27E98400D7F6174551D7 /* WiiUDownloaderiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B2F3A0E8E2DABE416FF14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E5A63A620274F6A6279FE18 = {
+						ProvisioningStyle = Automatic;
+					};
+					CF2F207E5E9D7769F6131971 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CBB5D71965F15C58B7CE603 /* Build configuration list for PBXProject "WiiUDownloaderiOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 403CDA51E5DC057A215F07A2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0EAA7D37E4070E60E9FD520E /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8432FAD9F282CF7650E66BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5A63A620274F6A6279FE18 /* WiiUDownloaderWidgetExtension */,
+				CF2F207E5E9D7769F6131971 /* WiiUDownloaderiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A689571F287EE64B6D6333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094489A5B44CD9FBEB8A729E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854512113F823BF3377D8F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A769C365D022762AD3EFFD /* AddByTitleIDView.swift in Sources */,
+				F3172E634CDF593C198C1FD5 /* AppConfig.swift in Sources */,
+				81EF1E0D87AD2FA5AC3D1FE5 /* ContentView.swift in Sources */,
+				7824F52A55A4535EB49B5409 /* DownloadActivityAttributes.swift in Sources */,
+				7FB0A8570B0560AF88E67593 /* DownloadManager.swift in Sources */,
+				D7AFE5F85FEAA2D223241A12 /* GlassEffects.swift in Sources */,
+				024F4AC865C04B83C388CD45 /* Haptics.swift in Sources */,
+				EEED57CD393364662C6D0A82 /* InitialSetupView.swift in Sources */,
+				4AFBBFDCE0F4BFE73B77897E /* LiveActivityManager.swift in Sources */,
+				62FDBF6DAADAFCF3737A17BF /* QueueItem.swift in Sources */,
+				AC4EA2A5BDEAEE7AD9DB4625 /* QueueView.swift in Sources */,
+				C0FB4EECE0C4047D9BDDEF95 /* SettingsView.swift in Sources */,
+				B4CC1DCEA89E355640932A06 /* Theme.swift in Sources */,
+				A4D9EDF544A58D2E5F68B012 /* TitleDetailView.swift in Sources */,
+				1BD1B255A5B589DA02320DA9 /* TitleListView.swift in Sources */,
+				9676AC254A8EEC40444255EE /* WiiUDownloaderiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B47FD6BF62BF85B791272F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3819B3AF8217CD803CF73111 /* DownloadActivityAttributes.swift in Sources */,
+				B04212773CFFAD6292FD24C2 /* DownloadLiveActivity.swift in Sources */,
+				575692EE100F4C6EFDB503E1 /* WiiUDownloaderWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BFDE1D1DE9C9F4D764B4F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5A63A620274F6A6279FE18 /* WiiUDownloaderWidgetExtension */;
+			targetProxy = 5F63E21824C7FA77A18A5C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DCDBB8989EF85AA50997A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63693D469E7A24D5F24AC675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.void.muffinemu.downloader.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64001BB402E0924636659C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.void.muffinemu.downloader.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C33F06AC61CF1B2E6F7601D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = App/WiiUDownloaderiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.void.muffinemu.downloader;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C73C990F87ABC4E30A0C8F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9FCBC90F2E9145B2135912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = App/WiiUDownloaderiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.void.muffinemu.downloader;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBB5D71965F15C58B7CE603 /* Build configuration list for PBXProject "WiiUDownloaderiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73C990F87ABC4E30A0C8F7C /* Debug */,
+				1DCDBB8989EF85AA50997A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		927F90864AD2B70F5479EC35 /* Build configuration list for PBXNativeTarget "WiiUDownloaderiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33F06AC61CF1B2E6F7601D6 /* Debug */,
+				E9FCBC90F2E9145B2135912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E592177922EB9EB337134AE1 /* Build configuration list for PBXNativeTarget "WiiUDownloaderWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63693D469E7A24D5F24AC675 /* Debug */,
+				64001BB402E0924636659C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0EAA7D37E4070E60E9FD520E /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C43C103C66DF4302D681568 /* WUDCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WUDCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5B2F3A0E8E2DABE416FF14C /* Project object */;
+}
