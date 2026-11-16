@@ -6,6 +6,9 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   core-tests:
     name: WUDCore unit tests
@@ -47,7 +50,7 @@ jobs:
             -destination "generic/platform=iOS" \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
-            | xcpretty || true
+            | xcpretty && test ${PIPESTATUS[0]} -eq 0
       - name: Locate .app
         id: locate
         run: |
@@ -63,3 +66,14 @@ jobs:
         with:
           name: MuffinDownloader-unsigned-ipa
           path: MuffinDownloader-unsigned.ipa
+      - name: Publish a release (main only)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test -s MuffinDownloader-unsigned.ipa || { echo "no IPA was built"; exit 1; }
+          TAG="v1.0.${{ github.run_number }}"
+          gh release create "$TAG" MuffinDownloader-unsigned.ipa \
+            --repo "${{ github.repository }}" --target "${{ github.sha }}" --latest \
+            --title "Muffin Downloader $TAG" \
+            --notes "Unsigned IPA for sideloading (SideStore, AltStore, LiveContainer or TrollStore). Muffin Downloader is from MuffinEMU, created by Void. No keys are included; import your own in Settings."
